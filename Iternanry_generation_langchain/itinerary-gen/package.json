@@ -1,0 +1,16 @@
+{
+    "name": "itinerary-gen",
+    "version": "1.0.0",
+    "description": "Personalized Itinerary Generator using LangChain and AWS RDS",
+    "main": "server/app.js",
+    "scripts": {
+      "start": "node server/app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mysql2": "^2.2.5",
+      "body-parser": "^1.19.0",
+      "child_process": "^1.0.2"
+    }
+  }
+  
